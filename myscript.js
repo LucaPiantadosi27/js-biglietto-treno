@@ -1,5 +1,5 @@
 function priceCalculator() {
-    
+
     document.getElementById("price-container").style.display = "block";
 
     const nKm = parseInt(prompt("Quanti km vuoi percorrere?"));
@@ -30,4 +30,4 @@ function priceCalculator() {
 
     document.getElementById("output").innerHTML = prezzo + "€";
 
-}
+}  
